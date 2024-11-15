@@ -1,0 +1,83 @@
+.container {
+    position: relative;
+    width: 50%;
+    transition: transform .2s;
+  }
+  
+  .image {
+    opacity: 1;
+    display: flex;
+    width: 482px;
+    height: 325px;
+    transition: .5s ease;	
+    backface-visibility: hidden;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .text {
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica Neue, sans-serif;
+  }
+  .container:hover .image {
+    filter: brightness(50%);
+    transform: scale(1.2);
+  }
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+  .container2 {
+    position: relative;
+    width: 263px;
+    transition: transform .2s;
+  }
+  
+  .image2 {
+    opacity: 1;
+    display: flex;
+    width: 263.75px;
+    height: 175px;
+    transition: .5s ease;	
+    backface-visibility: hidden;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0;
+  }
+  .text2 {
+    color: white;
+    font-size: 12px;
+    font-family: Helvetica Neue, sans-serif;
+  }
+  .container2:hover .image2 {
+    filter: brightness(50%);
+    transform: scale(1.2);
+  }
+  .container2:hover .middle {
+    opacity: 1;
+  }
+  .scroll-text {
+    position: relative;
+  }
+  .scroll-text p:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+  }

@@ -1,0 +1,21 @@
+.container3 {
+    position: relative;
+    transition: transform .2s;
+    color: #fff;
+    text-align: center;
+    width: 155.47px;
+    height: 235px;
+    border-radius: 10px;
+}
+.image3 {
+    transition: .5s ease;
+    border-radius: 10px;
+    backface-visibility: hidden;
+}
+.container3:hover .image3{
+    transform: scale(1.2);
+}
+.centered {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
