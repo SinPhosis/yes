@@ -1,3 +1,4 @@
+/* seperate codes */
 .container3 {
     position: relative;
     transition: transform .2s;
@@ -15,7 +16,40 @@
 .container3:hover .image3{
     transform: scale(1.2);
 }
-.centered {
+.container4 {
+    position: relative;
+    width: 50%;
+  }
+  .text4 {
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica Neue, sans-serif;
+  }  
+  .image4 {
+    opacity: 1;
+    display: block;
+    width: 290px;
+    height: 170px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  .middle4 {
+    transition: .5s ease;
+    opacity: 0;
     position: absolute;
+    top: 50%;
+    left: 90%;
     transform: translate(-50%, -50%);
-}
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container4:hover .image4 {
+    filter: brightness(50%);
+  }
+  
+  .container4:hover .middle4 {
+    opacity: 1;
+  }

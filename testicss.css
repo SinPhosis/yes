@@ -1,3 +1,4 @@
+/* only for hover function */
 .container {
     position: relative;
     width: 50%;
@@ -36,15 +37,6 @@
   .container:hover .middle {
     opacity: 1;
   }
-
-
-
-
-
-
-
-
-
   .container2 {
     position: relative;
     width: 263px;
@@ -80,4 +72,73 @@
   .scroll-text p:hover {
     transform: translateY(-10px);
     transition: transform 0.3s ease;
+  }
+  .buttonhoverment {
+    width: 103.81px;
+    height: 7px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+  }
+  .buttonhoverment:hover {
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    background-color: #407CE8;
+    transition: .5s ease;
+  }
+  .textsig {
+    color: #B7B6B6;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 10px;
+    padding-bottom:10px;
+  }
+  .textsig:hover {
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    color: #407CE8;
+    transition: .5s ease;
+  }
+  .dottedbuttons {
+    width: 27px;
+    height: 27px;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: #EFEFEF;
+    color: #6C6C6C;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer; 
+  }
+  .dottedbuttons:hover {
+    background-color:  #407CE8;
+    color: #fff;
+    transition: .5s ease;
+  }
+  .votebutton {
+    width: 575px;
+    height: 75px;
+    color: #FFF;
+    font-size: 14px;
+    padding: 15px;
+    background: hsla(0, 0%, 100%, .1);
+    border-color: #0e70ee;
+    border-style: solid;
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+  }
+  .votebutton:hover {
+    background-color: #0e70ee;
+  }
+  .votetext{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .votetext:hover {
+    transform: translateX(20px);
   }

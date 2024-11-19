@@ -1,3 +1,4 @@
+/* this CSS file is for only styles used for simple things. also no hover code used on here*/
 .bigDIV {
     padding-top: 10px;
     padding-bottom:10px;
@@ -139,3 +140,82 @@
     justify-content: baseline;
     gap: 15px;
 }
+.buttonXD {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin-top: 90px;
+    background-color: #ccc;
+    color: #fff;
+    border-style: hidden;
+    cursor: pointer;
+}
+.replacementdiv {
+    padding-left: 450px;
+    padding-top: 15px;
+}
+.buttonclicked {
+    width: 103.81px;
+    height: 7px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: #407CE8;
+  }
+  .textsclicked {
+    color: #407CE8;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 10px;
+    padding-bottom: 10px;
+  }
+  .divi {
+    display: flex;
+    justify-content: baseline;
+    padding-left: 450px;
+  }
+  .verticaline {
+    border-left: 1px solid #EFEFEF;
+    height: 500px;
+    margin-left: 10px;
+  }
+  .DOV {
+    padding-left: 450px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: baseline;
+  }
+  .h1guh {
+    color: #000;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .h2guh {
+    color: #888;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .divguh {
+    color: #888;
+    font-size: 14px;
+    display: flex;
+    gap: 5px;
+  }
+  .ihatenames1 {
+    padding-left: 450px;
+    padding-top: 20px;
+  }
+  .ihatenames2 {
+    background-color: #007aff;
+    width: 690px;
+    height: 322px;
+  }
+  .guhanotherh1 {
+    color: #FFF;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
