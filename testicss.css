@@ -1,144 +1,171 @@
 /* only for hover function */
 .container {
-    position: relative;
-    width: 50%;
-    transition: transform .2s;
-  }
-  
-  .image {
-    opacity: 1;
-    display: flex;
-    width: 482px;
-    height: 325px;
-    transition: .5s ease;	
-    backface-visibility: hidden;
-    border-radius: 10px;
-    justify-content: center;
-    margin: 0;
-  }
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-  }
-  .text {
-    color: white;
-    font-size: 14px;
-    font-family: Helvetica Neue, sans-serif;
-  }
-  .container:hover .image {
-    filter: brightness(50%);
-    transform: scale(1.2);
-  }
-  .container:hover .middle {
-    opacity: 1;
-  }
-  .container2 {
-    position: relative;
-    width: 263px;
-    transition: transform .2s;
-  }
-  
-  .image2 {
-    opacity: 1;
-    display: flex;
-    width: 263.75px;
-    height: 175px;
-    transition: .5s ease;	
-    backface-visibility: hidden;
-    border-radius: 10px;
-    justify-content: center;
-    margin: 0;
-  }
-  .text2 {
-    color: white;
-    font-size: 12px;
-    font-family: Helvetica Neue, sans-serif;
-  }
-  .container2:hover .image2 {
-    filter: brightness(50%);
-    transform: scale(1.2);
-  }
-  .container2:hover .middle {
-    opacity: 1;
-  }
-  .scroll-text {
-    position: relative;
-  }
-  .scroll-text p:hover {
-    transform: translateY(-10px);
-    transition: transform 0.3s ease;
-  }
-  .buttonhoverment {
-    width: 103.81px;
-    height: 7px;
-    border-style: hidden;
-    border-radius: 10px;
-    background-color: #EFEFEF;
-  }
-  .buttonhoverment:hover {
-    -webkit-transform: translateY(-1px);
-    transform: translateY(-1px);
-    background-color: #407CE8;
-    transition: .5s ease;
-  }
-  .textsig {
-    color: #B7B6B6;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    margin-left: 10px;
-    padding-bottom:10px;
-  }
-  .textsig:hover {
-    -webkit-transform: translateY(-1px);
-    transform: translateY(-1px);
-    color: #407CE8;
-    transition: .5s ease;
-  }
-  .dottedbuttons {
-    width: 27px;
-    height: 27px;
-    border-style: hidden;
-    border-radius: 5px;
-    background-color: #EFEFEF;
-    color: #6C6C6C;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer; 
-  }
-  .dottedbuttons:hover {
-    background-color:  #407CE8;
-    color: #fff;
-    transition: .5s ease;
-  }
-  .votebutton {
-    width: 575px;
-    height: 75px;
-    color: #FFF;
-    font-size: 14px;
-    padding: 15px;
-    background: hsla(0, 0%, 100%, .1);
-    border-color: #0e70ee;
-    border-style: solid;
-    display: flex;
-    justify-content: start;
-    cursor: pointer;
-  }
-  .votebutton:hover {
-    background-color: #0e70ee;
-  }
-  .votetext{
-    color: #FFF;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
-  .votetext:hover {
-    transform: translateX(20px);
-  }
+  position: relative;
+  width: 50%;
+  transition: transform 0.2s;
+}
+
+.image {
+  opacity: 1;
+  display: flex;
+  width: 482px;
+  height: 325px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 0;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text {
+  color: white;
+  font-size: 14px;
+  font-family: Helvetica Neue, sans-serif;
+}
+.container:hover .image {
+  filter: brightness(50%);
+  transform: scale(1.2);
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.container2 {
+  position: relative;
+  width: 263px;
+  transition: transform 0.2s;
+}
+
+.image2 {
+  opacity: 1;
+  display: flex;
+  width: 263.75px;
+  height: 175px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 0;
+}
+.text2 {
+  color: white;
+  font-size: 12px;
+  font-family: Helvetica Neue, sans-serif;
+}
+.container2:hover .image2 {
+  filter: brightness(50%);
+  transform: scale(1.2);
+}
+.container2:hover .middle {
+  opacity: 1;
+}
+.scroll-text {
+  position: relative;
+}
+.scroll-text p:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+.buttonhoverment {
+  width: 103.81px;
+  height: 7px;
+  border-style: hidden;
+  border-radius: 10px;
+  background-color: #efefef;
+}
+.buttonhoverment:hover {
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  background-color: #407ce8;
+  transition: 0.5s ease;
+}
+.textsig {
+  color: #b7b6b6;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.textsig:hover {
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  color: #407ce8;
+  transition: 0.5s ease;
+}
+.dottedbuttons {
+  width: 27px;
+  height: 27px;
+  border-style: hidden;
+  border-radius: 5px;
+  background-color: #efefef;
+  color: #6c6c6c;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.dottedbuttons:hover {
+  background-color: #407ce8;
+  color: #fff;
+  transition: 0.5s ease;
+}
+.votebutton {
+  width: 575px;
+  height: 75px;
+  color: #fff;
+  font-size: 14px;
+  padding: 15px;
+  background: hsla(0, 0%, 100%, 0.1);
+  border-color: #0e70ee;
+  border-style: solid;
+  display: flex;
+  justify-content: start;
+  cursor: pointer;
+}
+.votebutton:hover {
+  background-color: #0e70ee;
+}
+.votetext {
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.votetext:hover {
+  transform: translateX(20px);
+}
+.containerbutton {
+  width: 690px;
+  height: 66px;
+}
+.containerbutton:hover .buttonguh {
+  background-color: white;
+  transition: 1s ease;
+}
+.containerbutton:hover .innertextguh {
+  color: #1e87f0;
+  transition: 1s ease;
+}
+.buttonguh {
+  width: 690px;
+  height: 66px;
+  background-color: #f8f8f8;
+  border-style: hidden;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+}
+.innertextguh {
+  color: #000;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
